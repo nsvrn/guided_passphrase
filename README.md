@@ -7,6 +7,7 @@ example phrases:
 - *unwoven wolf handbag craving neurotic result*
 - *ancient flaxseed blaming unsorted clerk timing*
 - **Recommended entropy: greater than 100 bits for offline passphrases. Select more words or a bigger charset.** These passphrases above are only for illustration and don't have enough entropy for practical use in most offline cases.
+- **Also, not recommended for any critical private key generation where collision can cause single point of failure**
 
 ---
 #### Test:
