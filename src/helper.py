@@ -1,6 +1,5 @@
 from rich.console import Console
 from rich.table import Table
-# from rich.style import Style
 import numpy as np
 from get_wordlist import WlType
 import math
@@ -30,9 +29,9 @@ def print_grid(wordlist):
     colors = ['red', 'green', 'blue', 'yellow', 'black']
     table = Table(title="guided wordlist", show_header=False, show_lines=True)
     index = 0
-    for _ in range(1, 11):
-        fcolor = np.random.choice(colors)
-        table.add_column('', justify="left", style=f'{fcolor}', no_wrap=True)
+    for i in range(1, 11):
+        fcolor = colors[i%len(colors)]
+        table.add_column('', justify="left", style=f'{fcolor} on white', no_wrap=True)
     for _ in range(1, 11):
         w = wordlist
         table.add_row(w[index], w[index+1], w[index+2], w[index+3], w[index+4], 
