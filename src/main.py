@@ -1,7 +1,7 @@
 
 import numpy as np
 import helper as hp
-from get_wordlist import get_wordlist, WlType
+from wordlist import get_wordlist
 
 
 def main():

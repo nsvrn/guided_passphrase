@@ -1,7 +1,7 @@
 from rich.console import Console
 from rich.table import Table
 import numpy as np
-from get_wordlist import WlType
+from wordlist import WlType
 import math
 
 console = Console()
