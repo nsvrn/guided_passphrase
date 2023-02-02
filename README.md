@@ -25,8 +25,6 @@ python3 src/main.py
 - Motivation: create user selected high entropy passphrases
 - Allowing users to pick words from the primary wordlist often results in risky less-random passphrases, hence presenting a user with a 10x10 grid of 100 words randomly chosen by the computer eliminates that issue, user then selects n words from those 100 words. This allows user to select slightly more personalized passphrases.
 - This also avoids the machine knowing about your selected passphrase.
-- This can also be used for a two-factor auth where user is presented with the original grid as a prompt and user reselects his words everytime, aiding long-term memorization. Although persistence of original grid, lowers the entropy significantly in a sense, because then charset length becomes 100 words if an attacker has access to the original grid, making it trivial to brute-force into the passphrase.
-
 
 
 
