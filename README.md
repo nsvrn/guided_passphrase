@@ -1,5 +1,6 @@
 ####  Guided wordlist for passphrases:
-CAUTION: this is an unverified rookie software for illustration. Don't use for any real-life use cases.
+> **Warning**
+> This is just an experimental concept. Don't use this code.
 
 ![output](output.png "output")
 example phrases:
